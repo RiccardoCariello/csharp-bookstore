@@ -25,3 +25,16 @@ bool copertinaFlessibile = true;
 
 Console.WriteLine("--------------------- LIBRO DI OGGI: " + titolo + " DI " + autore + "------------------------");
 Console.WriteLine("Informazioni generiche: ");
+Console.WriteLine("ISBN : " + isbn);
+Console.WriteLine("Numero delle pagine: " + pagine);
+Console.WriteLine("Peso del libro : " + peso);
+Console.WriteLine($"Dimensioni del libro : Larghezza :{larghezza}, Altezza: {altezza}, Profondità: {profondità}");
+Console.WriteLine("");
+Console.WriteLine("Informazioni Amazon");
+Console.WriteLine("Numero Recensioni : " + numeroRecensioni);
+Console.WriteLine("Valutazione media : " + valutazioneMedia);
+Console.WriteLine("Kindle disponibile : " + kindle);
+Console.WriteLine($"Copertina flessibile disponibile : {copertinaFlessibile} ");
+Console.WriteLine("---------------------------------------------------------------------------------------------");
+
+
